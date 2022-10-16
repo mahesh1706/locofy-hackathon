@@ -1,0 +1,18 @@
+:root {
+  /* fonts */
+  --font-asul: Asul;
+  --font-baloo-bhaijaan-2: "Baloo Bhaijaan 2";
+  --font-inter: Inter;
+  --font-irish-grover: "Irish Grover";
+
+  /* font sizes */
+  --font-size-2xs: 12px;
+  --font-size-xs: 16px;
+  --font-size-sm: 26px;
+  --font-size-base: 32px;
+  --font-size-lg: 36px;
+
+  /* Colors */
+  --color-gray-100: #363636;
+  --color-white: #fff;
+}

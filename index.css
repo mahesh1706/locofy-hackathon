@@ -1,0 +1,496 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18);
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    box-shadow: 1px -1px rgba(62, 62, 62, 0.18), 2px -2px rgba(62, 62, 62, 0.18),
+      3px -3px rgba(62, 62, 62, 0.18), 4px -4px rgba(62, 62, 62, 0.18),
+      5px -5px rgba(62, 62, 62, 0.18), 6px -6px rgba(62, 62, 62, 0.18),
+      7px -7px rgba(62, 62, 62, 0.18), 8px -8px rgba(62, 62, 62, 0.18);
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #11001a;
+}
+.vector-icon {
+  position: absolute;
+  height: 96%;
+  width: 96%;
+  top: 2%;
+  right: 2%;
+  bottom: 2%;
+  left: 2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.entypo-socialtwitter-with-cir {
+  text-decoration: none;
+  position: absolute;
+  top: 634px;
+  left: 435px;
+  width: 68px;
+  height: 61px;
+  overflow: hidden;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 29px;
+  right: 191.8px;
+  width: 48.2px;
+  height: 46px;
+}
+.logosdiscord-icon {
+  position: absolute;
+  top: 405px;
+  left: 1949px;
+  width: 512px;
+  height: 100px;
+  overflow: hidden;
+}
+.collaboration,
+.explore-a {
+  text-decoration: none;
+  position: absolute;
+  top: 43px;
+  color: inherit;
+  display: inline-block;
+  height: 19px;
+}
+.explore-a {
+  right: 428.41px;
+  width: 56.59px;
+  -webkit-text-stroke: 1px #000;
+}
+.collaboration {
+  right: 283.35px;
+  width: 101.65px;
+}
+.image-icon {
+  position: absolute;
+  top: 6px;
+  left: 110px;
+  width: 226px;
+  height: 93px;
+  object-fit: cover;
+}
+.rectangle-a {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 1722px;
+  height: 99px;
+  color: inherit;
+}
+.ridiscord-fill-a,
+.vector-icon2 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon2 {
+  height: 87.5%;
+  width: 75%;
+  top: 8.33%;
+  right: 12.5%;
+  bottom: 4.17%;
+  left: 12.5%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.ridiscord-fill-a {
+  text-decoration: none;
+  top: 628px;
+  left: 326px;
+  width: 77px;
+  height: 70px;
+}
+.ellipse-icon,
+.polygon-icon {
+  position: absolute;
+}
+.polygon-icon {
+  top: 275px;
+  left: 0;
+  width: 297px;
+  height: 284px;
+}
+.ellipse-icon {
+  top: 0;
+  left: 223px;
+  width: 1437px;
+  height: 1532px;
+}
+.untitled-design-2-1 {
+  position: absolute;
+  top: 244px;
+  left: 894px;
+  width: 573px;
+  height: 513px;
+  object-fit: cover;
+}
+.openstudent-div {
+  position: absolute;
+  top: 255px;
+  left: 112px;
+  font-size: 96px;
+  font-family: var(--font-irish-grover);
+  display: inline-block;
+}
+.community-for-students {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.open-source-contribution {
+  margin: 0;
+}
+.community-for-students-to-make {
+  position: absolute;
+  top: 429.85px;
+  left: 126px;
+  font-size: var(--font-size-lg);
+  text-align: center;
+  display: inline-block;
+  width: 606.9px;
+  height: 140.55px;
+  backdrop-filter: blur(4px);
+  -webkit-text-stroke: 1px #000;
+  transform: rotate(-0.08deg);
+  transform-origin: 0 0;
+}
+.fagithub-square,
+.vector-icon3 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon3 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  left: -100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.fagithub-square {
+  text-decoration: none;
+  top: 627px;
+  left: 600px;
+  width: 79px;
+  height: 71px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.develop-build-opensource-contr-div {
+  position: absolute;
+  top: 845px;
+  left: 170px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #170035;
+}
+.the-worlds-best {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.the-worlds-best-word-is-actio {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1120px;
+  left: 137px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-baloo-bhaijaan-2);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 841px;
+  height: 367px;
+  opacity: 0;
+}
+.the-worlds-best-word-is-actio.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.untitled-design-3-1 {
+  position: absolute;
+  top: 982px;
+  left: 938px;
+  width: 575px;
+  height: 570px;
+  object-fit: cover;
+}
+.line-div {
+  position: absolute;
+  top: 1562.5px;
+  left: -0.5px;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  width: 1626px;
+  height: 1px;
+}
+.line-icon {
+  position: absolute;
+  top: 926px;
+  left: 0;
+  width: 1625px;
+  height: 12px;
+}
+.untitled-design-4-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1762px;
+  left: 137px;
+  width: 745px;
+  height: 359px;
+  background-image: url(./public/untitleddesign41@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dc4e2-890a-11e7-95ee-33a81c09f-icon {
+  position: absolute;
+  top: 1718px;
+  left: 1035px;
+  width: 368px;
+  height: 485px;
+  object-fit: cover;
+}
+.github-div,
+.rectangle-div1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangle-div1 {
+  background-color: #fbfbfb;
+}
+.github-div {
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primary-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2191px;
+  left: 188px;
+  width: 658px;
+  height: 40px;
+}
+.primary-button:hover {
+  animation: 1s ease 0s infinite normal none shadow-pop-tr;
+  opacity: 1;
+}
+.primary-button:active {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.span {
+  font-size: var(--font-size-sm);
+}
+.organization-in-github-join {
+  position: absolute;
+  top: 1620px;
+  left: 205px;
+  font-family: var(--font-baloo-bhaijaan-2);
+  text-align: center;
+  display: inline-block;
+  width: 1175px;
+  height: 77px;
+  font-size: var(--font-size-lg);
+}
+.line-icon1 {
+  position: absolute;
+  top: 2310px;
+  left: 0;
+  width: 1625px;
+  height: 13px;
+}
+.untitled-design-6-1,
+.we-are-only-as-strong-as-we-ar {
+  position: absolute;
+  top: 2493px;
+  object-fit: cover;
+}
+.we-are-only-as-strong-as-we-ar {
+  left: 139px;
+  width: 620px;
+  height: 638px;
+}
+.untitled-design-6-1 {
+  left: 882px;
+  width: 674px;
+  height: 498px;
+}
+.students-collaboration-div {
+  position: absolute;
+  top: 2381px;
+  left: 558px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-irish-grover);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 611px;
+  height: 112px;
+}
+.line-icon2 {
+  position: absolute;
+  top: 3224px;
+  left: 0;
+  width: 1660px;
+  height: 7px;
+}
+.ellipse-icon1,
+.rectangle-div2 {
+  position: absolute;
+  top: 613px;
+  left: 0;
+  width: 794px;
+  height: 1847px;
+}
+.rectangle-div2 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e09eff;
+}
+.primary-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 3019px;
+  left: 994px;
+  width: 436px;
+  height: 45px;
+}
+.primary-button1:hover {
+  background-color: var(--color-white);
+  animation: 1s ease 0s infinite normal none shadow-pop-tr;
+  opacity: 1;
+}
+.ellipse-icon2,
+.ellipse-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1660px;
+  height: 675px;
+}
+.ellipse-icon3 {
+  top: 2290.94px;
+  width: 926.1px;
+  height: 1668.06px;
+}
+.there-could-be-no-definition-o {
+  position: absolute;
+  top: 3252px;
+  left: 284px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-baloo-bhaijaan-2);
+  text-align: center;
+  display: inline-block;
+  width: 1112px;
+  height: 256px;
+}
+.rectangle-div3 {
+  position: absolute;
+  top: 3842px;
+  left: 0;
+  background-color: #2e1c3d;
+  width: 1711px;
+  height: 180px;
+}
+.no-copyright-feel-free-to-get {
+  position: absolute;
+  top: 3879px;
+  left: 707px;
+  display: inline-block;
+}
+.ellipse-icon4,
+.image-icon1 {
+  position: absolute;
+  top: 1456.94px;
+  left: 829.25px;
+  width: 830.75px;
+  height: 1804.12px;
+}
+.image-icon1 {
+  top: 3859px;
+  left: 64px;
+  width: 188px;
+  height: 77px;
+  object-fit: cover;
+}
+.emailopenstudentinfogmailco-div {
+  position: absolute;
+  top: 3885px;
+  left: 1256px;
+  display: inline-block;
+}
+.desktop-1 {
+  position: relative;
+  background-color: #4b3f5e;
+  width: 100%;
+  height: 3959px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-asul);
+}
